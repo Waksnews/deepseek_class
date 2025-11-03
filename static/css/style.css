@@ -32,3 +32,140 @@ background-color: black;
     background-color: cornflowerblue;
     font-size: 50px;
 }
+
+
+/*css for assignment*/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 80px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: red;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav ul li.active a {
+  color: red;
+  border-bottom: 2px solid red;
+  padding-bottom: 3px;
+}
+
+.book-btn {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: darkred;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #f8f8f8;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 56px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.watch-video {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.play-icon {
+  color: red;
+  font-size: 18px;
+}
+
+/* Hero Image */
+.hero-image img {
+  width: 420px;
+  border-radius: 50%;
+
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about .small-text {
+  color: #888;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.about h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.about h2 span {
+  color: red;
+}
